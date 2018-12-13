@@ -5,7 +5,7 @@ author: SomeBodyHelpMe
 ---
 
 
-## Javascript 특징
+# Javascript 특징
 
 - Scripting Language
 - 가볍고 손쉽게 작성이 가능한 프로그래밍 언어
@@ -20,9 +20,9 @@ author: SomeBodyHelpMe
 
 
 
-## Javascript 문법 - 1
+# Javascript 문법 - 1
 
-### 자료형
+## 자료형
 
 * Javascript는 변수 타입 표시를 하지 않고, 값이 할당되는 과정에서 자동으로 자료형이 결정
 
@@ -40,7 +40,7 @@ author: SomeBodyHelpMe
 
 
 
-####Number
+###Number
 
 * 다른 언어들처럼 여러 타입(int, short, long, float) 등이 있지 않음
 
@@ -52,7 +52,7 @@ author: SomeBodyHelpMe
 
 
 
-####String
+###String
 
 * 2byte의 값들이 연속적으로 나열된 것
 
@@ -70,7 +70,7 @@ author: SomeBodyHelpMe
 
 
 
-####Boolean
+###Boolean
 
 * true, false 중 하나의 값을 가짐
 
@@ -80,7 +80,7 @@ author: SomeBodyHelpMe
 
 
 
-####Null, undefined
+###Null, undefined
 
 * null은 ‘객체가 아님’을 뜻하는 특수한 값
 
@@ -90,7 +90,7 @@ author: SomeBodyHelpMe
 
 
 
-####Object
+###Object
 
 * 속성(property) : 키(key) – 값(value)의 쌍으로 이루어짐
 
@@ -100,7 +100,7 @@ author: SomeBodyHelpMe
 
 
 
-####Array
+###Array
 
 * [] 로 감싼다. 값들이 순서대로 나열
 
@@ -108,9 +108,9 @@ author: SomeBodyHelpMe
 
 
 
-### 함수
+## 함수
 
-#### 일급 객체
+### 일급 객체
 
 * Javascript는 함수형 프로그래밍 언어(Functional Programming)
 
@@ -124,7 +124,7 @@ author: SomeBodyHelpMe
 
 
 
-####일급 객체의 조건
+###일급 객체의 조건
 
 * 변수나 데이터 구조안에 담을 수 있다
 
@@ -177,7 +177,7 @@ console.log(func5.property);		// 55
 
 ```
 
-####함수의 생성 방법
+###함수의 생성 방법
 
 - 함수 선언문을 사용한 생성
 
