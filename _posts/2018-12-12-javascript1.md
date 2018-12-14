@@ -2,6 +2,7 @@
 layout: post
 title:  "Javascript 문법"
 author: SomeBodyHelpMe
+tags: [post]
 ---
 
 
