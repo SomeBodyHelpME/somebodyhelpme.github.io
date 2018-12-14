@@ -32,10 +32,10 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 defaults:
   -
     scope:
-      path: "projects"
-      type: "pages"
+      path: ""
+      type: "posts"
     values:
-      layout: "project"
+      layout: "post"
       header-img: "img/home-bg.jpg"
 
 # Prose Settings
