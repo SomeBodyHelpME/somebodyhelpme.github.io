@@ -19,5 +19,5 @@ tags: [post, python, crawling]
 
 ## Flask
 
-* 마이크로 프레임워크
+* 마이크로 프레임워크(micro framework)
 
