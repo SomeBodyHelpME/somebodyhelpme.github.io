@@ -103,7 +103,7 @@ author: SomeBodyHelpMe
 
 ### 참고
 
-* csp**는 Content-Security-Policy 헤더를 설정하여 XSS(Cross-site scripting) 공격 및 기타 교차 사이트 인젝션을 예방합니다.
+* **csp**는 Content-Security-Policy 헤더를 설정하여 XSS(Cross-site scripting) 공격 및 기타 교차 사이트 인젝션을 예방합니다.
 
 * **hidePoweredBy**는 X-Powered-By 헤더를 제거합니다.
 
