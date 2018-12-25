@@ -69,6 +69,32 @@ root_io.of(/\/(\d+)$/).on('connection', function (socket) {
 
 
 
+### 채팅 등록 시
+
+1. DB에 채팅 등록
+2. 현재 채팅방에 접속중이지 않은 사람들에게는 fcm을 보냄
+3. 현재 채팅방에 접속중인 사람은 emit으로 알림
+
+
+
+### 현재 접속중인 사람 리스트
+
+* room에 접속하면 그 룸에 부여된 배열에 사용자 index 추가
+* room에서 나가면 사용자 index 제거
+* 배열은 각각의 namespace + room 별로 모두 다르게 존재
+
+## 채팅방 알림 메소드
+
+### io.of(Nsp).in(Room).emit('event', null)
+
+: namespace가 Nsp이고, room이 Room인 곳에 sender를 포함한 모든 사람에게 전송
+
+### io.of(Nsp).emit('event', null)
+
+: namespace가 Nsp인 곳에 sender를 포함한 모든 사람에게 전송
+
+
+
 ## 읽음 수 표시
 
 ### 순서도
