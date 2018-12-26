@@ -83,6 +83,8 @@ root_io.of(/\/(\d+)$/).on('connection', function (socket) {
 * room에서 나가면 사용자 index 제거
 * 배열은 각각의 namespace + room 별로 모두 다르게 존재
 
+
+
 ## 채팅방 알림 메소드
 
 ### io.of(Nsp).in(Room).emit('event', null)
