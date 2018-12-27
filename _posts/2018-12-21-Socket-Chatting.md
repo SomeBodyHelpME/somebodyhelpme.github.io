@@ -111,5 +111,29 @@ root_io.of(/\/(\d+)$/).on('connection', function (socket) {
 
 
 
+## FCM
+
+FCM을 통해 메시지 등록시, 사진, 비디오, 파일 등록시 다른 사용자들에게 알림
+
+```
+var message = { //this may vary according to the message type (single recipient, multicast, topic, et cetera)
+	to: client_token,
+	data: {
+		data : statuscode.uploadMessage,
+		result : result
+	},
+	priority: "high",
+	content_available: true
+};
+
+fcm.send(message, function(err, response) {
+	if(err) {
+		console.log("Something has gone wrong!", err);
+	} else {
+		console.log("Successfully sent with response: ", response);
+	}
+}); // fcm.send
+```
+
 
 
